@@ -6,24 +6,32 @@ body {
 }
 
 .main_page {
-    height: calc( 100vh - 100px );
+    height: calc( 100vh - 80px );
 }
 
 /* header */
+header{
+    height: 80px;
+}
 
 /* Main Page */
 nav {
     background-color: #10243a;
-    height: calc( 100vh - 100px );
+    height: calc( 100vh - 80px );
     color: #fff;
 }
 
-main {
-    height: calc( 100vh - 100px );
-    display: inline-block;
+/* action page */
+#jumbo {
+    height: 200px;
+    background-color: #356ee7;
 }
 
-main
+main {
+    height: calc( 100vh - 80px );
+}
+
+
 /* Debug */
 [class*="col"] {
     border: 2px dotted #000;
@@ -35,7 +43,6 @@ main
 }
 
 header {
-    min-height: 100px;
     background-color: aquamarine;
 }
 
