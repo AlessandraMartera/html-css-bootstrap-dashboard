@@ -11,15 +11,38 @@ body {
 
 /* header */
 header{
+    background-color: #fff;
     height: 80px;
     padding: 20px;
 }
 
+#logo_big{
+    display: none;
+}
 
+#logo_little img {
+    width: 100%;
+    max-height: fit-content;
+}
+/* Search from Bootstrap */
+.input-group-text, .form-control {
+    background-color: #e5e5e5;
+    border: none;
+}
 
+.form-control::placeholder {
+    opacity: 0.5;
+    font-weight: 500;
+}
+
+.fa-bell  {
+    width: 50px;
+    font-size: 30px;
+}
 /* Main Page */
 nav {
-    background-color: #10243a;
+    background-color: #081c33;
+    background-image: url(../img/sidebar-bg.png);
     height: 100%;
     color: #fff;
     padding: 20px;
@@ -63,7 +86,7 @@ main {
 }
 
 header {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 main {

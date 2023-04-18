@@ -1,0 +1,9 @@
+@media screen and ( min-width: 768px ) {
+    #logo_big {
+        display: inline-block;
+    }
+
+    #logo_little {
+        display: none;
+    }
+}

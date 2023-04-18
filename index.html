@@ -23,12 +23,25 @@
 
         <!-- Header -->
         <header>
-            <div class="row h-100">
-                <div class="col-2">LOGO</div>
-                <div class="col-8">
-                    search
+            <div class="row justify-content-around align-items-center h-100">
+                <div class="col-1 col-md-3 gx-0">
+                    <div id="logo_big">
+                        <img src="img/logo.svg" alt="Logo">
+                    </div>
+
+                    <div id="logo_little">
+                        <img src="img/mobile-logo.png" alt="Logo">
+                    </div>
                 </div>
-                <div class="col-2">bells</div>
+
+                <div class="col-8 col-md-5 gx-0"> 
+                    <!-- Search Bar form Boostrap -->
+                    <div class="input-group flex-nowrap">
+                        <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                </div>
+                <div class="col-1 col-md-3 "><i class="fa-solid fa-bell"></i></div>
             </div>
         </header>
 
