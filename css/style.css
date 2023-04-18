@@ -12,24 +12,44 @@ body {
 /* header */
 header{
     height: 80px;
+    padding: 20px;
 }
+
+
 
 /* Main Page */
 nav {
     background-color: #10243a;
-    height: calc( 100vh - 80px );
+    height: 100%;
     color: #fff;
+    padding: 20px;
 }
 
 /* action page */
 #jumbo {
     height: 200px;
     background-color: #356ee7;
+    color: #fff;
 }
 
 main {
-    height: calc( 100vh - 80px );
+    height: calc( 100% - 200px );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Debug */
