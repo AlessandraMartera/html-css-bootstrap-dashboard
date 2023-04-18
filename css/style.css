@@ -29,6 +29,7 @@ header{
     width: 100%;
     max-height: fit-content;
 }
+
 /* Search from Bootstrap */
 .input-group-text, .form-control {
     background-color: #e5e5e5;
@@ -56,6 +57,21 @@ nav {
     padding: 20px;
 }
 
+nav a  {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    padding: 8px;
+}
+
+a:hover {
+    background-color: #ccc;
+}
+nav span {
+    display: none;
+    margin-left: 8px;
+}
 
 /* JUMBO */
 #jumbo {

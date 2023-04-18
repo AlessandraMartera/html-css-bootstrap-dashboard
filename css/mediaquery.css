@@ -16,4 +16,10 @@
     #single_icon {
         display: none;
     }
+
+    /* navbar */
+    nav span {
+        display: inline-block;
+    }
+
 }
