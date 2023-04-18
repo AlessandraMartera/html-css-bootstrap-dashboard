@@ -1,0 +1,44 @@
+/* Utility */
+
+/* General settings */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_page {
+    height: calc( 100vh - 100px );
+}
+
+/* header */
+
+/* Main Page */
+nav {
+    background-color: #10243a;
+    height: calc( 100vh - 100px );
+    color: #fff;
+}
+
+main {
+    height: calc( 100vh - 100px );
+    display: inline-block;
+}
+
+main
+/* Debug */
+[class*="col"] {
+    border: 2px dotted #000;
+}
+
+.item-debug {
+    background-color: pink;
+    min-height: 50px;
+}
+
+header {
+    min-height: 100px;
+    background-color: aquamarine;
+}
+
+main {
+    border: 1px dashed yellowgreen;
+}
