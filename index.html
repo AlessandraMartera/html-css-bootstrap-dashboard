@@ -23,8 +23,9 @@
 
         <!-- Header -->
         <header>
-            <div class="row justify-content-around align-items-center h-100">
-                <div class="col-1 col-md-3 gx-0">
+            <div class="row justify-content-around justify-content-lg-center align-items-center h-100">
+                <!-- Logo -->
+                <div class="col-1 col-lg-2 gx-0">
                     <div id="logo_big">
                         <img src="img/logo.svg" alt="Logo">
                     </div>
@@ -34,14 +35,29 @@
                     </div>
                 </div>
 
-                <div class="col-8 col-md-5 gx-0"> 
+                <!-- Search bar -->
+                <div class="col-9 col-md-8 gx-0"> 
                     <!-- Search Bar form Boostrap -->
                     <div class="input-group flex-nowrap">
                         <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
                         <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
                     </div>
                 </div>
-                <div class="col-1 col-md-3 "><i class="fa-solid fa-bell"></i></div>
+
+                <!-- icons -->
+                <div class="col-1 col-lg-2 text-right">
+                    <div id="single_icon">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+
+                    <div id="multi_icons">
+                        <i class="fa-solid fa-list-ul"></i>
+                        <i class="fa-solid fa-circle-question"></i>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                    
+                </div>
             </div>
         </header>
 
@@ -53,16 +69,16 @@
 
                     <!-- nav of the page -->
                     <nav>
-                        <div class="row">
-                            <div class="col-12">one</div>
-                            <div class="col-12">two</div>
-                            <div class="col-12">
+                        <div class="row flex-column h-100">
+                            <div class="col-12 h-10">one</div>
+                            <div class="col-12 h-10">two</div>
+                            <div class="col-12 flex-grow-1">
                                 <div>
                                     threee
                                     ground
                                 </div>
                             </div>
-                            <div class="col-12">andim</div>
+                            <div class="col-12 h-10">andim</div>
                         </div>
 
                     </nav>
@@ -72,24 +88,71 @@
                 <div class="col">
                     
                         
-                        <section id="jumbo">
-                            <div class="row h-100 gx-0"> 
-                                <div class="col-12 col-md-4 order-md-2 p-2">new student</div>
-                                <div class="col-12 col-md-4 p-2">boolean</div>
-                                <div class="col-12 col-md-4 p-2">online</div>
-                            </div>
-                        </section>
-                       
-                        <main>
-                            <div class="row h-100 gx-0">
-                                <div class="col-12 col-lg-7">
-                                    block
+                    <section id="jumbo">
+                        <div class="row h-100 gx-0"> 
+                            <div class="col-12 col-md-4 order-md-2 p-2">new student</div>
+                            <div class="col-12 col-md-4 p-2">boolean</div>
+                            <div class="col-12 col-md-4 p-2">online</div>
+                        </div>
+                    </section>
+                    
+                    <main>
+                        <div class="row h-100 gx-0">
+
+                            <div class="col-12 col-lg-7 p-4">
+
+                                <!-- BLOCK -->
+                                <div>
+                                    
+                                    <div class="title_block">
+                                       <h3>Prossime classi</h3>
+                                    </div>
+
+                                    <div class="text_block">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero amet at dolores nam obcaecati, perferendis est, quia veritatis quis sunt reprehenderit ex! Voluptatum, alias iste debitis blanditiis rem aperiam voluptate.
+                                    </div>
                                 </div>
-                                <div class="col-12 col-lg-5">
-                                    block
+                                
+                                <!-- BLOCK -->
+                                <div>
+                                    
+                                    <div class="title_block">
+                                       <h3>Prossime classi</h3>
+                                    </div>
+
+                                    <div class="text_block">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero amet at dolores nam obcaecati, perferendis est, quia veritatis quis sunt reprehenderit ex! Voluptatum, alias iste debitis blanditiis rem aperiam voluptate.
+                                    </div>
                                 </div>
                             </div>
-                        </main>
+
+                            <div class="col-12 col-lg-5 p-4">
+                               
+                                <!-- BLOCK -->
+                               <div>
+                                    <div class="title_block">
+                                       <h3>To Do</h3>
+                                    </div>
+
+                                    <div class="text_block">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero amet at dolores nam obcaecati, perferendis est, quia veritatis quis sunt reprehenderit ex! Voluptatum, alias iste debitis blanditiis rem aperiam voluptate.
+                                    </div>
+                                </div>
+
+                                <!-- BLOCK Graphics -->
+                               <div class="block">
+
+                                    <div class="graphic_block">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
                        
                     
                    
