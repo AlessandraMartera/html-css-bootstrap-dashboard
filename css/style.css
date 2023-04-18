@@ -13,7 +13,7 @@ body {
 header{
     background-color: #fff;
     height: 80px;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 #logo_big{
@@ -35,9 +35,12 @@ header{
     font-weight: 500;
 }
 
+#multi_icons {
+    display: none;
+}
+
 .fa-bell  {
-    width: 50px;
-    font-size: 30px;
+    color: #fc9213;
 }
 /* Main Page */
 nav {
