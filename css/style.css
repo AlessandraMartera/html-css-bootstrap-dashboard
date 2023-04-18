@@ -9,9 +9,14 @@ body {
     height: calc( 100vh - 80px );
 }
 
+#scroll  {
+    height: calc( 100vh - 80px );
+    overflow: auto;
+}
+
 /* header */
 header{
-    background-color: #fff;
+    background-color: #f8f9fa;
     height: 80px;
     padding: 0 20px;
 }
@@ -61,9 +66,9 @@ nav {
 
 /* MAIN */
 main {
-    height: calc( 100% - 200px );
+    /* height: calc( 100vh - 80px ); */
     background-color: #f8f9fa;
-    overflow: auto;
+
 }
 
 /* Build a Block for main */
