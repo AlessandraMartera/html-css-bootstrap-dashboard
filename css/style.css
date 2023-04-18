@@ -1,4 +1,12 @@
 /* Utility */
+.label {
+    display: inline-block;
+    background-color: #2958b9;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 0 10px;
+    margin: 0 5px;
+}
 
 /* General settings */
 body {
@@ -78,8 +86,28 @@ nav span {
     height: 200px;
     background-color: #356ee7;
     color: #fff;
+    padding: 10px;
 }
 
+/* New Stutent block */
+#jumbo button {
+    margin-left: 20px;
+}
+
+/* Boolean block */
+
+.label_path {
+    display: inline-block;
+    background-color: #2958b9;
+    border-radius: 40px;
+    font-size: 15px;
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+#jumbo h2 {
+    display: inline-block;
+}
 /* MAIN */
 main {
     /* height: calc( 100vh - 80px ); */
