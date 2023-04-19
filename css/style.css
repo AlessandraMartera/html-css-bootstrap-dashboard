@@ -5,7 +5,11 @@
     border-radius: 20px;
     font-size: 12px;
     padding: 0 10px;
-    margin: 0 5px;
+    margin-left: 5px;
+}
+
+.extended {
+    display: none;
 }
 
 /* General settings */
@@ -29,15 +33,22 @@ header{
     padding: 0 20px;
 }
 
-#logo_big{
-    display: none;
-}
-
-#logo_little img {
+header img {
     width: 100%;
     max-height: fit-content;
 }
 
+.icons {
+    display: flex;
+    justify-content: space-around;
+    color: #5b5858;
+    font-size: 18px;
+}
+
+
+.fa-bell  {
+    color: #fc9213;
+}
 /* Search from Bootstrap */
 .input-group-text, .form-control {
     background-color: #e5e5e5;
@@ -49,23 +60,17 @@ header{
     font-weight: 500;
 }
 
-#multi_icons {
-    display: none;
-}
 
-.fa-bell  {
-    color: #fc9213;
-}
 /* Main Page */
-nav {
+aside {
     background-color: #081c33;
     background-image: url(../img/sidebar-bg.png);
     height: 100%;
     color: #fff;
-    padding: 20px;
+    padding: 20px 0;
 }
 
-nav a  {
+aside a  {
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -76,14 +81,13 @@ nav a  {
 a:hover {
     background-color: #ccc;
 }
-nav span {
+aside span {
     display: none;
     margin-left: 8px;
 }
 
 /* JUMBO */
 #jumbo {
-    height: 200px;
     background-color: #356ee7;
     color: #fff;
     padding: 10px;
@@ -96,13 +100,9 @@ nav span {
 
 /* Boolean block */
 
-.label_path {
-    display: inline-block;
-    background-color: #2958b9;
-    border-radius: 40px;
+#jumbo .label {
     font-size: 15px;
-    padding: 0 10px;
-    margin: 0 5px;
+
 }
 
 #jumbo h2 {

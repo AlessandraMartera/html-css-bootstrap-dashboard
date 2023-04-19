@@ -26,11 +26,11 @@
             <div class="row justify-content-around justify-content-lg-center align-items-center h-100">
                 <!-- Logo -->
                 <div class="col-1 col-lg-2 gx-0">
-                    <div id="logo_big">
+                    <div class="extended">
                         <img src="img/logo.svg" alt="Logo">
                     </div>
 
-                    <div id="logo_little">
+                    <div class="min">
                         <img src="img/mobile-logo.png" alt="Logo">
                     </div>
                 </div>
@@ -46,16 +46,14 @@
 
                 <!-- icons -->
                 <div class="col-1 col-lg-2 text-right">
-                    <div id="single_icon">
+                    
+                    <div class="icons">
+                        <i class="fa-solid fa-list-ul extended"></i>
+                        <i class="fa-solid fa-circle-question extended"></i>
+                        <i class="fa-solid fa-ellipsis-vertical extended"></i>
                         <i class="fa-solid fa-bell"></i>
                     </div>
 
-                    <div id="multi_icons">
-                        <i class="fa-solid fa-list-ul"></i>
-                        <i class="fa-solid fa-circle-question"></i>
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
-                        <i class="fa-solid fa-bell"></i>
-                    </div>
                     
                 </div>
             </div>
@@ -65,41 +63,41 @@
         <!-- main page -->
         <div class="main_page">
             <div class="row gx-0 h-100">
-                <div class="col-2">
+                <div class="col-2 col-md-1 col-lg-2 col-xl-1">
 
                     <!-- nav of the page -->
-                    <nav>
+                    <aside>
                         <div class="row flex-column h-100 text-center text-lg-start">
 
                             <div class="col-12 h-10">
 
                                <a href="#">
-                                    <i class="fa-solid fa-house"></i><span>Home</span>
+                                    <i class="fa-solid fa-house"></i><span class="extended">Home</span>
                                 </a>
                             </div>
 
                             <div class="col-12 h-10">
 
                                <a href="#">
-                                    <i class="fa-solid fa-chart-simple"></i><span>Stats</span>
+                                    <i class="fa-solid fa-chart-simple"></i><span class="extended">Stats</span>
                                 </a>
                             </div>
 
                             <div class="col-12 flex-grow-1">
 
                                 <a href="#">
-                                    <i class="fa-solid fa-signal"></i><span>Signal</span>
+                                    <i class="fa-solid fa-signal"></i><span class="extended">Signal</span>
                                 </a>
                             </div>
 
                             <div class="col-12 h-10">
                             
                                <a href="#">
-                                    <i class="fa-solid fa-gear"></i><span>Admin</span>
+                                    <i class="fa-solid fa-gear"></i><span class="extended">Admin</span>
                                 </a>
                             </div>
                         </div>
-                    </nav>
+                    </aside>
                 </div>
 
                 <!-- MAin of the page -->
@@ -109,24 +107,33 @@
                         <section id="jumbo">
                             <div class="row h-100 gx-0"> 
                                 <!-- New Student -->
-                                <div class="col-12 col-md-4 order-md-2 p-2">
+                                <div class="col-12 col-md-4 col-lg-3 order-md-2 p-2 text-md-center">
                                     <span>Nuovo Studente</span>
                                     <button type="button" class="btn btn-outline-light">+</button>
                                 </div>
 
                                 <!-- Boolean -->
-                                <div class="col-12 col-md-4 p-2">
-                                    <h2><strong>Boolean</strong></h2> <div class="label_path">Piano Blaze</div>
+                                <div class="col-12 col-md-5 col-lg-6 p-2">
+                                    <h2><strong>Boolean</strong></h2> <div class="label">Piano Blaze</div>
                                     <div class="path"> 
-                                        <div class="label_path">3 app</div> >> 
-                                        <div class="label_path">+</div>
+                                        
+                                        <div class="label">3 app</div> <span> >> </span>
+                                        <div class="label min">+</div>
+
+                                        <div class="extended">
+                                            <div class="label">Boolean mobile app</div>
+                                            <div class="label">Boolean web app</div>
+                                            <div class="label">Boolean blog app</div>
+                                        </div>
+                                        <div class="label"> </div>
+
                                     </div>
                                 </div>
 
                                 <!-- Online Student -->
-                                <div class="col-12 col-md-4 p-2">
+                                <div class="col-12 col-md-3 p-2">
                                     <div>Studenti Online negli ultimi 30 minuti</div>
-                                    <div>125</div>
+                                    <h3>125</h3>
 
                                 </div>
                             </div>
@@ -145,7 +152,9 @@
                                         </div>
     
                                         <div class="text_block">
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero amet at dolores nam obcaecati, perferendis est, quia veritatis quis sunt reprehenderit ex! Voluptatum, alias iste debitis blanditiis rem aperiam voluptate.
+                                            <!--  -->
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis ipsa ullam deleniti totam labore quia adipisci libero ut natus asperiores repudiandae, fugiat aperiam, illo quod similique vitae odit quo voluptate.
+                                            <!--  -->
                                         </div>
                                     </div>
                                     
@@ -157,7 +166,8 @@
                                         </div>
     
                                         <div class="text_block">
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero amet at dolores nam obcaecati, perferendis est, quia veritatis quis sunt reprehenderit ex! Voluptatum, alias iste debitis blanditiis rem aperiam voluptate.
+                                            <!-- List form Bootstrap -->
+                                            <!--   -->
                                         </div>
                                     </div>
                                 </div>
@@ -169,10 +179,28 @@
                                         <div class="title_block">
                                            <h3>To Do</h3>
                                         </div>
-    
+                                        
                                         <div class="text_block">
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero amet at dolores nam obcaecati, perferendis est, quia veritatis quis sunt reprehenderit ex! Voluptatum, alias iste debitis blanditiis rem aperiam voluptate.
+                                            
+
+                                            <!-- Checkbox list from Boostrap -->
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                                    <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                                    <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                                    <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+                                                </li>
+                                            </ul>
+
                                         </div>
+                                        
                                     </div>
     
                                     <!-- BLOCK Graphics -->

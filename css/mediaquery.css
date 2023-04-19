@@ -1,25 +1,9 @@
 @media screen and ( min-width: 992px ) {
-    #logo_big {
-        display: inline-block;
-    }
-
-    #logo_little {
+    .min {
         display: none;
     }
 
-    #multi_icons {
-        display: flex;
-        justify-content: space-around;
-        color: #5b5858;
-    }
-
-    #single_icon {
-        display: none;
-    }
-
-    /* navbar */
-    nav span {
+    .extended {
         display: inline-block;
     }
-
 }
