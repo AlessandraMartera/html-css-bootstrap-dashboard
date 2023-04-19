@@ -47,11 +47,22 @@
                 <!-- icons -->
                 <div class="col-1 col-lg-2 text-right">
                     
-                    <div class="icons">
+                    <div class="icons d-flex align-items-center">
                         <i class="fa-solid fa-list-ul extended"></i>
                         <i class="fa-solid fa-circle-question extended"></i>
                         <i class="fa-solid fa-ellipsis-vertical extended"></i>
-                        <i class="fa-solid fa-bell"></i>
+                        
+                        <div class="dropdown">
+                            <button link="#" class="btn btn-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell"></i>
+                            </button>
+
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
                     </div>
 
                     
@@ -179,7 +190,7 @@
                                                 <!-- Andress -->
                                                 <div class="col-12">
                                                     <label for="inputAddress" class="form-label">Indirizzo</label>
-                                                    <input type="text" class="form-control" id="inputAddress" placeholder="Via Dante, 130">
+                                                    <input type="text" class="form-control" id="inputAddress">
                                                 </div>
 
                                                 <!-- City -->
