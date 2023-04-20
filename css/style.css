@@ -201,6 +201,15 @@ table img {
     border-bottom: 1px solid #d8d8d8;
 }
 
+.dropdown-menu {
+    width: 100%;
+}
+
+.list-group-item-action:focus, .list-group-item-action:hover {
+
+    background-color: #fff;
+}
+
 /* Debug */
 [class*="col"] {
     border: 2px dotted #000;
